@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".Edit_profile">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="157dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/basket" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/roundedbtnfile"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="First name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="3dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editSurname"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtnfile"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Surname"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="3dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundedbtnfile"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="3dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSurname" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtnfile"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:padding="3dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMail" />
+
+    <EditText
+        android:id="@+id/edtDepartment"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbtnfile"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Department"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="3dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPhone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/arrBtn"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="Save"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDepartment" />
+</androidx.constraintlayout.widget.ConstraintLayout>

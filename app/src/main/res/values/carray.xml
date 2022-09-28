@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Major Appliances</item>
+        <item>Small Appliances</item>
+        <item>ICT Equipment</item>
+        <item>Light Equipment</item>
+        <item>Sports Equipment</item>
+        <item>Medical Equipment</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "273420229169",
+    "project_id": "e-waste-management-syste-9b8e7",
+    "storage_bucket": "e-waste-management-syste-9b8e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273420229169:android:3c422f13a5d6bd6ef49310",
+        "android_client_info": {
+          "package_name": "com.example.e_wastemanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273420229169-lo2pkefcvt0cu4s1nl5stbp85q15mglg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW12ZMopDIW9d08TFYSCK3rF98PbsrKkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273420229169-lo2pkefcvt0cu4s1nl5stbp85q15mglg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
